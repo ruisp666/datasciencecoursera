@@ -35,9 +35,10 @@ makeCacheMatrix <- function(m = matrix()) {
 
 
 ## Write a short comment describing this function
-##This function verifies if the inverse of the matrix
-## is already calculated, and if it is it gets the value
-##from the other matrix
+##cacheSolve verifies if the inverse of the matrix
+## is already calculated and recalls it from memory
+##if it is. Otherwise, it calculates the inverse,
+##and saves it to memory.
 
 cacheSolve <- function(m, ...) {
         ## Return a matrix that is the inverse of 'x'
