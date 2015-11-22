@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+
 
 ##The following functions allow the extraction of the inverse 
 ## matrix of a given invertible matrix in case the inverse of the matrix
@@ -41,7 +40,7 @@ makeCacheMatrix <- function(m = matrix()) {
 ##and saves it to memory.
 
 cacheSolve <- function(m, ...) {
-        ## Return a matrix that is the inverse of 'x'
+     
   inv <- m$getinv()
   if(!is.null(inv)) {
     message("getting cached data")
